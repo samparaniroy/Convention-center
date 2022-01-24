@@ -141,6 +141,44 @@ label{
 	color: #0D0925;
 	font-size: 38px;
 }
+.contact-area{
+    padding-bottom: 60px ;
+}
+.contact-title h2 {
+	padding: 30px;
+	font-size: 28px;
+	line-height: 70px;
+	color: #3A3A3A;
+	text-align: center;
+}
+.form-area form {
+	max-width: 600px;
+	margin: auto;
+}
+.form-area input {
+	width: 100%;
+	padding: 10px 15px;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+	border-radius: 6px;
+    font-size: 15px;
+}
+.form-area textarea {
+	width: 100%;
+	padding: 10px 15px;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	border-radius: 6px;
+    height: 120px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.submit-button {
+	background: #FF5959;
+	color: white;
+	border: 0 !important;
+}
 .footer-area {
 	background: #0B0D17;
 }
