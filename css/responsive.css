@@ -27,14 +27,45 @@
     .frequently-area {
         padding: 20px 0;
     }
-    .form-area {
-        padding: 0px 16px;
-    }
     .footer-area p {
         text-align: center;
     }
     .logo-item {
         text-align: center;
         padding-top: 60px;
+    }
+    .frequently-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .Precious-area {
+        padding: 40px 0;
+    }
+    .Precious-content h1 {
+        font-size: 19px;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    .Precious-content p {
+        font-size: 15px;
+        max-width: 324px;
+    }
+    .package-title {
+        padding-bottom: 10px;
+    }
+    .package-area {
+        padding: 0px 16px;
+    }
+    .client-area {
+        padding: 10px 0;
+    }
+    .frequently-title h1 {
+        padding-bottom: 20px;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .contact-title h2 {
+        padding: 20px 0;
     }
 }

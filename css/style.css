@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    padding:40px 0 20px 0;
+    padding:40px 15px 20px 15px;
 }
 .logo-area a{
     color: #3E3E3E;
@@ -51,6 +51,38 @@ body{
 }
 .carousel-caption {
 	padding-bottom: 3.25rem;
+}
+.Precious-area {
+	padding: 100px 0;
+}
+.Precious-image img {
+	width: 100%;
+}
+.Precious-area .row {
+	align-items: center;
+}
+.Precious-content h1 {
+	color: #0A0826;
+	font-size: 38px;
+	padding-bottom: 6px;
+}
+.Precious-content p {
+	color: #6C6C6C;
+	font-size: 16px;
+	font-weight: 700;
+	max-width: 500px;
+	padding-bottom: 20px;
+}
+.Precious-content a {
+	background: #3F87F5;
+	padding: 10px 24px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-decoration: none;
+}
+.Precious-content i{
+	color: #FFFFFF;
+	margin-left: 8px;
 }
 .package-area{
     padding: 60px 0;
@@ -133,6 +165,26 @@ label{
 .package-item a{
     background-color: #FFFFFF
 }
+.client-area{
+	padding: 100px 0;
+}
+.client-content {
+	box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+	text-align: center;
+	padding: 20px 20px;
+}
+.client-title h1 {
+	text-align: center;
+	padding-bottom: 100px;
+	color: #0A0826;
+	font-size: 38px;
+	font-weight: 600;
+}
+.client-content h3 {
+	color: #0C1920;
+	font-size: 14px;
+	padding-top: 16px;
+}
 .frequently-area {
 	padding: 100px 0;
 }
@@ -176,7 +228,7 @@ label{
     font-family: 'Poppins', sans-serif;
 }
 .submit-button {
-	background: #FF5959;
+	background: #3F87F5;
 	color: white;
 	border: 0 !important;
 }
