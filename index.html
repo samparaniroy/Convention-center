@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <!----header area-->
     <header>
         <div class="container">
             <div class="row">
@@ -48,6 +49,7 @@
             </div>
         </div>      
     </header>
+    <!----banner area-->
     <section class="banner-area">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -86,19 +88,33 @@
                     <button class="btn-book-now">Book Now</button>
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>  
+    </section>
+    <!---package area-->
     <section class="package-area">
         <div class="container">
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="liveToast" class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                <img src="images/toast.png" class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                Hello, world! This is a toast message.
+                </div>
+            </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="package-title">
@@ -176,6 +192,7 @@
             </div>
         </div>
     </section>
+    <!---frequently area-->
     <div class="frequently-area">
         <div class="container">
             <div class="row">
@@ -189,7 +206,7 @@
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What’s the difference between event design and event planning? 
+                                Whah's the difference between event design and event planning? 
                             </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -238,12 +255,13 @@
                     </div>
                 <div class="col-lg-6">
                     <div class="frequently-image">
-                        <img src="images/image1.png" alt="">
+                        <img src="images/image1.png" alt="">  
                     </div>
                 </div>
             </div>
         </div>
     </div> 
+    <!---content area-->
     <section class="contact-area">
         <div class="container">
             <div class="contact-title">
@@ -261,6 +279,7 @@
             </div>
         </div>
     </section>
+    <!---footer area-->
     <div class="footer-area">
         <div class="container">
             <div class="row">
