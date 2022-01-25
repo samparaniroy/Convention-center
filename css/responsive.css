@@ -12,4 +12,29 @@
     .btn-book-now {
         margin-bottom: 30px;
     }
+    .logo-area a {
+        padding: 0 20px;
+    }
+    .package-area {
+        padding: 15px 16px;
+    }
+    .package-content {
+        padding: 40px 0;
+    }
+    .package-item {
+        padding: 30px 16px 43px;
+    }
+    .frequently-area {
+        padding: 20px 0;
+    }
+    .form-area {
+        padding: 0px 16px;
+    }
+    .footer-area p {
+        text-align: center;
+    }
+    .logo-item {
+        text-align: center;
+        padding-top: 60px;
+    }
 }

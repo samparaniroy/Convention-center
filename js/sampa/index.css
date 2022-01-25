@@ -1,0 +1,28 @@
+.box-area{
+    padding: 20px;
+    direction: ltr;
+}
+.left-box{
+    float: left;
+    width: calc(50% - 20px);
+    background: red;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    line-height: 20px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.right-box{
+    float: right;
+    width: 50%;
+    background: red;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+h1{
+    opacity: 0.5;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
